@@ -43,8 +43,8 @@ db.mytable.insert({
 })
 // ect....
 
-db.mytable.find()// for show informations into collection
-db.mytable.find().pretty()// its the same but for the beautiful view (json format)
+db.mytable.find() // to show informations into collection
+db.mytable.find().pretty() // its the same but for the beautiful view (json format)
 
 show collections // show tables (collections) in your db
 
