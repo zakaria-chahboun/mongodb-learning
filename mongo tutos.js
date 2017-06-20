@@ -61,7 +61,7 @@ db.mytable.update({"_id" : ObjectId("58fb2eb36d6cb27e28852805")},
 // search $gt > ,$gte >= ,$lt < , $lte <= , $ne != , $eq == , $in , $nin not in,
 db.mytable.find({price:{$lt:90}}).pretty() // give me price < 90
 db.mytable.find({price:{$gte:90}}).pretty() // give me price >= 90
-db.mytable.find({price:{$in:[90,150,180]}}).pretty() // give me price in this value 90,15,180
+db.mytable.find({price:{$in:[90,150,180]}}).pretty() // give me price in this values 90,15,180
 
 // search $and, $or :: into $and:[  ] we put group {} of values
 //for example price between 200 and 50
