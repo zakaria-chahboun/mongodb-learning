@@ -1,7 +1,7 @@
-use mydb // mydb is name of database : if exist then call if not create
+use mydb // mydb is name of database : if exist then call it, if not create it
 db // show current database
 
-// create a new Table (collection), "mytable" is a name of collection :: inside of "insert" is a "json" data (documents)
+// create a new Table (collection), "mytable" is a name of collection :: inside "insert" is a "json" data (documents)
 db.mytable.insert(
 {
     "title": "c++ lerning",
@@ -46,7 +46,7 @@ db.mytable.insert({
 db.mytable.find() // to show informations into collection
 db.mytable.find().pretty() // its the same but for the beautiful view (json format)
 
-show collections // show tables (collections) in your db
+show collections // show all tables (collections) in your db
 
 db.mytable.remove({"_id" : ObjectId("58fb369e6d6cb27e28852806")}) // to remove an item in collection with "_id"
 
