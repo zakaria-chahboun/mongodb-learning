@@ -1,0 +1,11 @@
+-----------------------------
+:: zakaria chahboun | 2017 ::
+-----------------------------
+-- Fix MongoDb Problem : just when you finished installation create a folder 'c:/data/db'
+
+-- to connect MongoDb with NodeJS, you want to include 'node_modules' folder to your project
+if already you have a the same name of 'node_modules', just copy the conataint into 1er foler.
+
+if you have any problem just put this command ' npm install mongodb ' to current project folder
+
+thank you zaki ^^
