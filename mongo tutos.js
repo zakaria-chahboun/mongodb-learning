@@ -1,7 +1,7 @@
 use mydb // mydb is name of database : if exist then call if not create
 db // show current database
 
-// create a new Table (collection), "mytable" is a name of collection :: inside of insert is a "json" data (documents)
+// create a new Table (collection), "mytable" is a name of collection :: inside of "insert" is a "json" data (documents)
 db.mytable.insert(
 {
     "title": "c++ lerning",
